@@ -4,6 +4,11 @@
 # include <config.h>
 #endif
 
+int test_funktion()
+{
+   /* bla bla */
+}
+
 int main( int argc, char ** argv )
 {
 #ifdef CONFIG_REPEAT
@@ -12,5 +17,6 @@ int main( int argc, char ** argv )
 #endif
       printf( "Michi ist toll ! :o" );
 
+   test_funktion();
    return 0;
 }
