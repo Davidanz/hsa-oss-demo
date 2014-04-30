@@ -9,6 +9,9 @@ int test_funktion()
    /* bla bla */
 }
 
+int featurex()
+{}
+
 int main( int argc, char ** argv )
 {
 #ifdef CONFIG_REPEAT
